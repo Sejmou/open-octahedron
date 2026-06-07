@@ -1,0 +1,10 @@
+[project]
+name = "open-octahedron"
+version = "0.1.0"
+description = "Demonstrating how to read data from the physical 'Bluetooth octahedron', sold over the years as 'Timeular ZEI', 'Timeular Tracker', and, most recently (after Timeular rebranded to EARLY), 'Time Tracking Cube'"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bleak>=3.0.2",
+    "pydantic>=2.13.4",
+]
